@@ -1,0 +1,20 @@
+name: Check
+on:
+  pull_request:
+    branches:
+      - '*'
+concurrency:
+  cancel-in-progress: true
+  group: ${{ github.workflow }}-${{ github.ref }}
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup
+      - run: uv sync --group=checks
+      - run: uv run invoke checks.format
+      - run: uv run invoke checks.type
+      - run: uv run invoke checks.code
+      - run: uv run invoke checks.security
+      - run: uv run invoke checks.coverage

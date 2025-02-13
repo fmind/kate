@@ -1,0 +1,82 @@
+# Frequently Asked Questions
+
+What is an open textbook?
+
+We define an open textbook as one that has an open license that makes it free for anyone to use and change. It can be print or digital.
+
+What is the Open Textbook Library?
+
+The Open Textbook Library was started so that faculty could find open textbooks in one place. More technically, the Open Textbook Library is a comprehensive referatory that points to open textbooks by a variety of authors and publishers.
+
+Do I need permission to use an open textbook?
+
+Authors and publishers give you permission to use an open textbook by giving it an open license.
+
+So I can just download an open textbook?
+
+Yes. All open textbooks in the library can be downloaded and adopted for free without additional permissions or paperwork.
+
+What is an open license?
+
+We’re glad you asked! Visit [Creative Commons](https://creativecommons.org/about/cclicenses/) for more information. Please note that the library no longer accepts new open textbooks that include a CC ND (No Derivatives) license. See the next question to know why.
+
+Can I edit or change an open textbook I find in the Open Textbook Library?
+
+Usually, yes. The vast majority of open textbooks have a Creative Commons license that allows for editing, adapting and making derivatives. We believe the ability to make changes to an open textbook is integral to its definition as open. That’s why we no longer accept open textbooks that include a CC ND (No Derivatives) license.
+
+How do I get an instructor copy?
+
+All open textbooks in the library can be downloaded, printed and adopted for free without additional permissions or paperwork. Some authors and publishers also provide printed copies. The Open Textbook Library does not provide instructor copies.
+
+The license says it’s okay. How do I edit an open textbook?
+
+A lot depends on the file types the author or publisher has made available. You may need technical support from local staff at your institution. See our guide, [Modifying an Open Textbook](https://pressbooks.pub/oenmodify/), for more information.
+
+I’m looking for a different file format of an open textbook (for example, an EPUB).
+
+We require that an open textbook be available in at least one portable format. The author or publisher decides which formats to make available. If you don’t see the format you’re looking for, please contact the author or publisher directly.
+
+What if students want a printed copy?
+
+Authors and publishers almost always provide a PDF, so students can print pages as needed. In addition, some faculty make arrangements with their campus bookstore to provide printed copies at cost. Others upload the PDF to an online print-on-demand service and students order copies directly.
+
+What are the requirements for including a book in the Open Textbook Library?
+
+Open textbooks in the library must be able to support a quarter or semester course. For more details, please read our [open textbook criteria](https://open.umn.edu/opentextbooks/books).
+
+What about the quality of open textbooks? Are they any good?
+
+We leave quality judgements to faculty with expertise in the subject area. When institutions join the Open Education Network, faculty are invited to review an open textbook. Around 60% of books in the Open Textbook Library have been reviewed. In addition, most open textbooks are reviewed during production, using systems implemented by the authors and publishers.
+
+How do I post a review to the Open Textbook Library?
+
+Open Textbook Library reviews are submitted by faculty working at institutions and consortia that are members of the Open Education Network (OEN). Contact your OER Librarian or consortial lead for more information. If you’re interested in joining the OEN, [contact us](https://open.umn.edu/oen/join).
+
+Are books in the Open Textbook Library accessible?
+
+It depends on the author and publisher. In general, in terms of file format, EPUB and EPUB3 are considered the most accessible. Like with traditional textbooks, campuses often partner with their disability resource centers to collaborate on a case-by-case basis.
+
+How do I access instructor and other ancillary materials?
+
+Some authors and publishers offer instructor resources. Check directly with them for more information about what additional materials they may offer. Please note UMN Libraries Publishing is a separate organization. Visit [UMN Libraries](https://www.lib.umn.edu/publishing) to learn more about their open textbooks.
+
+How does the Open Textbook Library handle different versions and editions?
+
+As a referatory, our goal is to connect faculty with the most recent edition. Most authors and publishers keep an archive of past versions and editions.
+
+I want to write my own open textbook. How do I get started?
+
+Please see our guide, [Authoring Open Textbooks](https://pressbooks.pub/authoropen/). If your institution is a member of the Open Education Network, we offer additional publishing support.
+
+How do I get updates about the Open Textbook Library?
+
+[Join our mailing list](https://open.umn.edu/opentextbooks/news) for updates, resources and opportunities in open education.
+
+I appreciate the Open Textbook Library. How can I support it?
+
+If your institution is not already a member of the [Open Education Network](https://open.umn.edu/oen), that’s a great place to start! If you have other ideas, please be in touch at [open@umn.edu](mailto:open@umn.edu).
+
+## Still Have Questions?
+
+Please contact us at [open@umn.edu](mailto:open@umn.edu).
+Thank you!

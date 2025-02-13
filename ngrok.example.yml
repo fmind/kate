@@ -1,0 +1,8 @@
+version: "3"
+agent:
+  authtoken: TODO
+endpoints:
+  - name: kate
+    url: TODO
+    upstream:
+      url: 8080

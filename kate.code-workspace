@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": true,
+		"python.defaultInterpreterPath": ".venv/bin/python",
+		"python.testing.pytestEnabled": true,
+		"python.testing.pytestArgs": [
+			"tests"
+		],
+		"[python]": {
+			"editor.codeActionsOnSave": {
+				"source.organizeImports": "explicit"
+			},
+			"editor.defaultFormatter": "charliermarsh.ruff",
+		},
+		"cSpell.words": [
+			"kate",
+			"RTVI"
+		],
+	},
+	"extensions": {
+		"recommendations": [
+			"charliermarsh.ruff",
+			"dchanco.vsc-invoke",
+			"mgmcdermott.vscode-language-babel",
+			"ms-python.mypy-type-checker",
+			"ms-python.python",
+			"ms-python.vscode-pylance",
+		]
+	}
+}

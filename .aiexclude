@@ -1,0 +1,4 @@
+.venv/*
+__pycache/*
+spiders/data/*
+client/node_modules/*

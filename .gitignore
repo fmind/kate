@@ -1,0 +1,32 @@
+# https://git-scm.com/docs/gitignore
+
+# App
+ngrok.yml
+
+# Build
+dist/
+
+# Cache
+.cache/
+.coverage*
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# Editor
+/.idea/
+/.vscode/
+.ipynb_checkpoints/
+
+# Environs
+.env.development
+.env.production
+/.venv/
+
+# Project
+/docs/*
+!**/.gitkeep
+
+# Python
+*.py[cod]
+__pycache__/
