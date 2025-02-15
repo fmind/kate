@@ -69,6 +69,11 @@ def uv(ctx: Context) -> None:
     """Clean uv lock file."""
     ctx.run("rm -f uv.lock")
 
+@task
+def node(ctx: Context) -> None:
+    """Clean the node_modules folder."""
+    ctx.run("rm -rf client/node_modules/")
+
 
 @task
 def python(ctx: Context) -> None:
@@ -90,7 +95,7 @@ def folders(_: Context) -> None:
     """Run all folders tasks."""
 
 
-@task(pre=[venv, uv, python])
+@task(pre=[venv, uv, node, python])
 def sources(_: Context) -> None:
     """Run all sources tasks."""
 
