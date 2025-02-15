@@ -69,6 +69,7 @@ def uv(ctx: Context) -> None:
     """Clean uv lock file."""
     ctx.run("rm -f uv.lock")
 
+
 @task
 def node(ctx: Context) -> None:
     """Clean the node_modules folder."""
