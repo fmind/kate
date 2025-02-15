@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/github/license/fmind/kate)](https://github.com/fmind/kate/blob/main/LICENCE.txt)
 [![Release](https://img.shields.io/github/v/release/fmind/kate)](https://github.com/fmind/kate/releases)
 
-**Kate is a multimodal live assistant that can be used to discuss any website content.**
+**Kate is a multimodal live assistant that listens to your user and discuss website contents.**
 
 ## Examples
 
@@ -46,7 +46,6 @@
 
 *   **[Pipecat Framework](https://www.pipecat.ai/):** Utilizes the [pipecat framework](https://www.pipecat.ai/) to handle media and events.
 
-
 ## Dependencies
 
 -   Python 3.12+
@@ -58,19 +57,57 @@
 
 ## Installation
 
+Clone the GitHub repository on your computer:
+
 ```bash
 git clone https://github.com/fmind/kate
 ```
+
+Install the project and its dependencies:
 
 ```
 uv sync --all-groups
 ```
 
+## Architecture
+
+![Architecture Diagram](diagrams/architecture.png)
+
+## Data Ingestion
+
+This projects uses **Vertex AI Search** to ingest website content (either online or offline) and retrieve them in the server code.
+
+Please refer to this documentation to start the ingestion and configure your bot:
+
+https://cloud.google.com/generative-ai-app-builder/docs/enterprise-search-introduction
+
+## Configuration
+
+Create an API Key from Daily Website for WebRTC communication: https://dashboard.daily.co/
+
+Create an API key from Google AI Studio for LLM interactions: https://aistudio.google.com/
+
+Configure the environment variables of the web client from `client/.env.example`:
+- `client/.env.development`: configuration for development mode.
+- `client/.env.production`: configuration for production mode.
+
+Configure the environment variables of the web server from `.env.example`:
+- `.env.development`: configuration for development mode.
+- `.env.production`: configuration for production mode.
+
+Configure the web exposition through ngrok from `ngrok.yml`:
+- `ngrok.yml`: configuration for ngrok.
+
+
 ## Development
 
+Start the web server in development mode:
+
 ```bash
-inv runs.server
+inv runs.server --mode=development
 ```
+
+Start the web client in development mode:
 
 ```bash
 inv clients.dev
@@ -78,9 +115,13 @@ inv clients.dev
 
 ## Production
 
+Start the client and the embedded client:
+
 ```bash
 inv runs.server --mode=production
 ```
+
+Expose your application on the internet:
 
 ```bash
 inv apps.expose
